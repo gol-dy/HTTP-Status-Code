@@ -3,7 +3,6 @@ Small info about status codes in server response.
 
 HTTP - Status Codes
 *******************
-
 1xx: Informational - It means the request has been received and the process is continuing.
 2xx: Success - It means the action was successfully received, understood, and accepted.
 3xx: Redirection - It means further action must be taken in order to complete the request.
@@ -17,6 +16,7 @@ HTTP - Status Codes
                but as long as it has not been rejected, the client should continue with the request.
 101 Switching Protocols - The server switches protocol.
 
+
 2xx: Successful
 ***************
 200 OK - The request is OK.
@@ -26,6 +26,7 @@ HTTP - Status Codes
 204 No Content - A status code and a header are given in the response, but there is no entity-body in the reply.
 205 Reset Content -	The browser should clear the form used for this transaction for additional input.
 206 Partial Content - The server is returning partial data of the size requested. Used in response to a request specifying a Range header. The server must specify the range included in the response with the Content-Range header.
+
 
 3xx: Redirection
 ****************
@@ -37,6 +38,7 @@ HTTP - Status Codes
 305 Use Proxy - The requested URL must be accessed through the proxy mentioned in the Location header.
 306 Unused - This code was used in a previous version. It is no longer used, but the code is reserved.
 307 Temporary Redirect - The requested page has moved temporarily to a new url.
+
 
 4xx: Client Error
 *****************
@@ -58,6 +60,7 @@ HTTP - Status Codes
 415 Unsupported Media Type - The server will not accept the request, because the mediatype is not supported .
 416 Requested Range Not Satisfiable - The requested byte range is not available and is out of bounds.
 417 Expectation Failed - The expectation given in an Expect request-header field could not be met by this server.
+
 
 5xx: Server Error
 *****************
