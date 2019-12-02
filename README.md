@@ -8,32 +8,32 @@
 
 **3xx: Redirection**  - It means further action must be taken in order to complete the request.
 
-**4xx: Client Error **  - It means the request contains incorrect syntax or cannot be fulfilled.
+**4xx: Client Error**  - It means the request contains incorrect syntax or cannot be fulfilled.
 
-**5xx: Server Error **  - It means the server failed to fulfill an apparently valid request.
+**5xx: Server Error**  - It means the server failed to fulfill an apparently valid request.
 
 ***
 ## 1xx: Information
 
-**100 Continue ** -  Only a part of the request has been received by the server, as long as it has not been rejected, the client should continue with the request.
+**100 Continue** -  Only a part of the request has been received by the server, as long as it has not been rejected, the client should continue with the request.
 
 **101 Switching Protocols** - The server switches protocol.
 ***
 ## 2xx: Successful
 
-**200 OK  ** - The request is OK.
+**200 OK** - The request is OK.
 
-**201 Created ** - The request is complete, and a new resource is created .
+**201 Created** - The request is complete, and a new resource is created .
 
 **202 Accepted** - The request is accepted for processing, but the processing is not complete.
 
 **203 Non-authoritative Information** - The information in the entity header is from a local or third-party copy, not from the original server.
 
-**204 No Content ** - A status code and a header are given in the response, but there is no entity-body in the reply.
+**204 No Content** - A status code and a header are given in the response, but there is no entity-body in the reply.
 
-**205 Reset Content **-	The browser should clear the form used for this transaction for additional input.
+**205 Reset Content**-	The browser should clear the form used for this transaction for additional input.
 
-**206 Partial Content ** - The server is returning partial data of the size requested. Used in response to a request specifying a Range header. The server must specify the range included in the response with the Content-Range header.
+**206 Partial Content** - The server is returning partial data of the size requested. Used in response to a request specifying a Range header. The server must specify the range included in the response with the Content-Range header.
 ***
 ## 3xx: Redirection
 
@@ -41,21 +41,21 @@
 
 **301 Moved Permanently**  - The requested page has moved to a new url .
 
-**302 Found **- The requested page has moved temporarily to a new url .
+**302 Found**- The requested page has moved temporarily to a new url .
 
-**303 See Other **- The requested page can be found under a different url .
+**303 See Other**- The requested page can be found under a different url .
 
-**304 Not Modified **- This is the response code to an If-Modified-Since or If-None-Match header, where the URL has not been modified since the specified date.
+**304 Not Modified**- This is the response code to an If-Modified-Since or If-None-Match header, where the URL has not been modified since the specified date.
 
 **305 Use Proxy** The requested URL must be accessed through the proxy mentioned in the Location header.
 
 **306 Unused**- This code was used in a previous version. It is no longer used, but the code is reserved.
 
-**307 Temporary Redirect **- The requested page has moved temporarily to a new url.
+**307 Temporary Redirect**- The requested page has moved temporarily to a new url.
 ***
 ## 4xx: Client Error
 
-**400 Bad Request**                     - The server did not understand the request.
+**400 Bad Request**- The server did not understand the request.
 
 **401 Unauthorized**- The requested page needs a username and a password.
 
@@ -73,13 +73,13 @@
 
 **408 Request Timeout**- The request took longer than the server was prepared to wait.
 
-**409 Conflict **- The request could not be completed because of a conflict.
+**409 Conflict**- The request could not be completed because of a conflict.
 
 **410 Gone**- The requested page is no longer available.
 
 **411 Length Required**- The "Content-Length" is not defined. The server will not accept the request without it.
 
-**412 Precondition Failed ** - The pre condition given in the request evaluated to false by the server.
+**412 Precondition Failed** - The pre condition given in the request evaluated to false by the server.
 
 **413 Request Entity Too Large**- The server will not accept the request, because the request entity is too large.
 
@@ -93,9 +93,9 @@
 ***
 ## 5xx: Server Error
 
-**500 Internal Server Error  **  - The request was not completed. The server met an unexpected condition.
+**500 Internal Server Error**  - The request was not completed. The server met an unexpected condition.
 
-**501 Not Implemented ** - The request was not completed. The server did not support the functionality required.
+**501 Not Implemented** - The request was not completed. The server did not support the functionality required.
 
 **502 Bad Gateway** - The request was not completed. The server received an invalid response from the upstream server.
 
