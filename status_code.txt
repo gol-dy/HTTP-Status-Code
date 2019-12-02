@@ -21,8 +21,9 @@ HTTP - Status Codes
 202 Accepted                      - The request is accepted for processing, but the processing is not complete.
 203 Non-authoritative Information - The information in the entity header is from a local or third-party copy,
                                     not from the original server.
-204 No Content                    - A status code and a header are given in the response, but there is no entity-body in the reply.
-205 Reset Content                 -	The browser should clear the form used for this transaction for additional input.
+204 No Content                    - A status code and a header are given in the response,
+                                    but there is no entity-body in the reply.
+205 Reset Content                 - The browser should clear the form used for this transaction for additional input.
 206 Partial Content               - The server is returning partial data of the size requested.
                                     Used in response to a request specifying a Range header.
                                     The server must specify the range included in the response with the Content-Range header.
